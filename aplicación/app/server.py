@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/9zxzzy68axm6ahs/P1_18_08_20_ACC_0.931250.pth?dl=1'
-export_file_name = 'P1_18_08_20_ACC_0.931250.pth'
+export_file_url = 'https://www.dropbox.com/s/2zub4gu907kau4k/P11_ACC_0.939281.pth?dl=0'
+export_file_name = 'P11_ACC_0.939281.pth'
 
 classes = ['Esophagitis', 'Normal', 'Polyps', 'Ulcerative colitis']
 path = Path(__file__).parent
