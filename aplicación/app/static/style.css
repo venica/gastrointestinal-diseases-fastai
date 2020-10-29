@@ -62,3 +62,12 @@ button.analyze-button {
 button:focus {
     outline: 0;
 }
+
+
+.created {
+    padding: 10px;
+    font-size: 12px;
+  	margin-top: 10em;
+  	text-align:center;
+  	
+}
