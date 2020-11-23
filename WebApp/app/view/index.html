@@ -1,0 +1,62 @@
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <link rel='stylesheet' href='../static/style.css'>
+  <script src='../static/client.js'></script>
+  <title>DigestiveAI app</title>
+</head>
+<body>
+<div>
+  <div class='center'>
+    <div class='title'><b>Clasificador de imágenes digestivas para Esofagitis, Normal, Pólipos y Colitis ulcerosa </br>Digestive images classifier for Esophagitis, Normal, Polyps, Ulcerative colitis</b></div>
+	
+    <p>
+      ¡Sube tu imagen para detectar una enfermedad digestiva! </br>Please upload your image to detect a digestive disease!
+    </p>
+    <div class='content'>
+      <div class='no-display'>
+        <input id='file-input'
+               class='no-display'
+               type='file'
+               name='file'
+               accept='image/*'
+               onchange='showPicked(this)'>
+      </div>
+      <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+      <div class='upload-label'>
+        <label id='upload-label'>Ningún archivo elegido | No file chosen</label>
+      </div>
+      <div>
+        <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
+      </div>
+      <div class='analyze'>
+        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analizar | Analyze</button>
+      </div>
+      <div class='result-label'>
+        <label id='result-label'></label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class ='acknowledgment'>
+      <p>
+        <b>Agradecimientos: </b>La autora agradece al CITIC, que como Centro de Investigación del Sistema universitario de Galicia es financiado por la Consellería de Cultura, Educación e Universidade de la Xunta de Galicia a través del Fondo Europeo de Desarrollo Regional (FEDER) con un 80%, Programa operativo FEDER Galicia 2014-2020 y el 20% restante de la Secretaría Xeral de Universidades (Ref ED431G 2019/01).
+      </p>
+      
+  	</div>
+  <div class ='images'>
+       		<p>
+			<a href="https://www.citic.udc.es/" target="_blank"><img alt="CITIC" src="images/citic.png" height="50"></a>
+			<a href="https://www.udc.es/en/" target="_blank"><img alt="UDC" src="images/udc.png" height="50"></a>
+			<a href="https://www.xunta.gal/portada/" target="_blank"><img alt="XUNTA DE GALICIA" src="images/xunta.png" height="50"></a>
+		</p>
+  	</div> 
+    <div class='created'>
+      <p>
+        <label id='created'>Creado por | Created by Verónica Aranda # veronicaarandajt @ gmail.com</label>
+      </p>
+      </div>
+
+</body>
+</html>
