@@ -13,4 +13,4 @@
 
 * [Recorte.py](Recorte.py) --> Se empleó para recortar el borde negro de las imágenes para quitar en lo máximo de lo posible información no importante para el entrenamiento del modelo. 
 
-* [Split.py](Split.py) -->
+* [Split.py](Split.py) --> Se empleó para dividir el dataset en dos carpetas: train y valid. 
