@@ -3,7 +3,7 @@
 ## Links de interés
 
 * Dataset original --> Kvasir Dataset (https://datasets.simula.no/kvasir/)
-* Dataset con los bordes recortados --> *insertar link*
+* Dataset con los bordes recortados --> https://udcgal-my.sharepoint.com/:f:/g/personal/veronica_aranda_udc_es/Eu1D0PEfUlNIu-mUT2-CBpsBw3LQcxktQfOdcccgD0FPQA?e=hMai5x
 * Dataset dividido en train y valid --> *insertar link*
 
 
